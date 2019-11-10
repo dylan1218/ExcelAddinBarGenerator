@@ -1,7 +1,7 @@
 Sub Auto_Open() 'Or Private Sub Workboo_Open() in ThisWorkbook
 
 'Addin bar will be generated with buttons for the paramaters entered below. These buttons will then call the functions entered into the second paramater
-of the Generate_AddIn_Button function.
+'of the Generate_AddIn_Button function.
     Call Generate_AddIn_Button("Table of Contents", "CustomFunctions.CreateTOC", 21)
     Call Generate_AddIn_Button("Generate Email from Selection", "CustomFunctions.CreateEmail_From_Selection", 24)
     Call Generate_AddIn_Button("Get User information", "CustomFunctions.Get_Email_Title_NoLoop", 22)
